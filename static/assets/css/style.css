@@ -4,7 +4,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #46342C;
     line-height: 1.6;
-
 }
 
 header.line {
@@ -30,9 +29,6 @@ p {
     width: 960px;
 }
 
-.p text {
-    width: 50%;
-    }
 
 
 *,
@@ -59,15 +55,25 @@ box-sizing: border-box;
 
 .logo img {
     float:left;
-    margin: 7px 7px 7px 0;
    }
+
+
+div.text {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+    width: 300px;
+    }
 
 .div promo {
     width:100%;
     float: right;
     margin:0;
     top: 0;
+    position: absolute;
     }
+
+
 
 .div photo1 {
     float:left;
@@ -78,5 +84,6 @@ box-sizing: border-box;
     float:left;
     margin: 7px 7px 7px 0;
     width: 50%;
-
     }
+
+
